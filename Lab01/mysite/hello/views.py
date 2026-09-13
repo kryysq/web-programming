@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse('<h1 style="color:green;">Hello from the first app</h1>')
+    return HttpResponse('<h1 style="color:#2b5797; font-size: 32px;">Welcome to my Django application.</h1>')
 
 
 def fancy_index(request):
